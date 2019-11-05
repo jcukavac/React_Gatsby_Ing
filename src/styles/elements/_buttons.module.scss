@@ -1,0 +1,58 @@
+@import "../base/_variables.module.scss";
+
+.buttons {
+  font-family: $ff-os-bold;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 24px;
+  border-radius: 5px;
+  border: 0;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.btn-red {
+  background-color: transparent;
+  border: 2px solid $btn-headline;
+  color: $btn-headline;
+  padding: 13px 55px;
+  transition: all 0.3s ease-in-out;
+  &:hover {
+    background: $btn-headline;
+    color: $white;
+  }
+}
+
+.reverse-btn-red {
+  backface-visibility: hidden;
+  background-image: linear-gradient( to right, $btn-headline 0%, $btn-gradient 100%);
+  color: $white;
+  padding: 12px 35px;
+  position: relative;
+  text-decoration: none;
+  span {
+    position: relative;
+    z-index: 3;
+  }
+  &:after {
+    content: '';
+    background-image: linear-gradient( to right, $btn-gradient 0%, $btn-headline 100%);
+    border-radius: 5px;
+    color: $white;
+    height: 100%;
+    left: 0;
+    opacity: 0;
+    position: absolute;
+    top: 0;
+    transition: opacity 0.3s ease-in-out;
+    width: 100%;
+    z-index: 2;
+  }
+  &:hover {
+    text-decoration: none;
+    color: $white;
+    &:after {
+      opacity: 1;
+    }
+  }
+}

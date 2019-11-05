@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 23.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd" [
+	<!ENTITY ns_extend "http://ns.adobe.com/Extensibility/1.0/">
+	<!ENTITY ns_ai "http://ns.adobe.com/AdobeIllustrator/10.0/">
+	<!ENTITY ns_graphs "http://ns.adobe.com/Graphs/1.0/">
+	<!ENTITY ns_vars "http://ns.adobe.com/Variables/1.0/">
+	<!ENTITY ns_imrep "http://ns.adobe.com/ImageReplacement/1.0/">
+	<!ENTITY ns_sfw "http://ns.adobe.com/SaveForWeb/1.0/">
+	<!ENTITY ns_custom "http://ns.adobe.com/GenericCustomNamespace/1.0/">
+	<!ENTITY ns_adobe_xpath "http://ns.adobe.com/XPath/1.0/">
+]>
+<svg version="1.1" id="Capa_1" xmlns:x="&ns_extend;" xmlns:i="&ns_ai;" xmlns:graph="&ns_graphs;"
+	 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 8.4001293 18"
+	 enable-background="new 0 0 8.4001293 18" xml:space="preserve">
+<metadata>
+	<sfw  xmlns="&ns_sfw;">
+		<slices></slices>
+		<sliceSourceBounds  bottomLeftOrigin="true" height="18" width="8.4001293" x="210.8569489" y="206.0570068"></sliceSourceBounds>
+	</sfw>
+</metadata>
+<g>
+	<path id="Facebook" fill="#2B3B73" d="M1.8156431,3.486027c0,0.4536073,0,2.4782474,0,2.4782474H0v3.0304108h1.8156431V18
+		h3.7297175V8.994936H8.048173c0,0,0.2343998-1.4530587,0.3480215-3.0418353c-0.325757,0-2.8367305,0-2.8367305,0
+		s0-1.7629962,0-2.0720136c0-0.3096869,0.4066525-0.7262576,0.8085761-0.7262576c0.4011698,0,1.24787,0,2.0320892,0
+		c0-0.412595,0-1.8382002,0-3.1548295C7.3532209,0,6.1621819,0,5.6371794,0
+		C1.723449-0.0002092,1.8156431,3.0332148,1.8156431,3.486027z"/>
+</g>
+</svg>

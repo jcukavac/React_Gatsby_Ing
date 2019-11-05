@@ -1,0 +1,47 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    line-height: 22px;
+    margin: 0;
+    color: royalblue !important;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+
+.col-lg-6 {
+    flex: 0 0 50%;
+    max-width: 50%;
+}
+
+.p-0 {
+    padding: 0!important;
+}
+
+.mt-md-0, .my-md-0 {
+    margin-top: 0!important;
+}
+
+.mt-3, .my-3 {
+    margin-top: 1rem!important;
+}
+
+.align-self-xl-auto {
+    align-self: auto!important;
+}
+
+.align-self-center {
+    align-self: center!important;
+}
+
+.text-uppercase {
+    text-transform: uppercase!important;
+}
+
+.red {
+    color: #c7223c;
+}
