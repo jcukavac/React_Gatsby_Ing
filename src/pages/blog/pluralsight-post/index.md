@@ -1,9 +1,11 @@
 ---
+# layout: blog
 path: "/post-three"
 date: "2019-11-05"
 title: "My Third Gatsby Post"
 author: "JC"
 image: "https://source.unsplash.com/150x150/?welcome"
+# thumbnail: "/images/prince.jpg"
 keywords: "developers"
 ---
 
