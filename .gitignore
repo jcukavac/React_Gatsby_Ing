@@ -1,2 +1,8 @@
+# Ignore cache folder and files
+.cache
+
+# Ignore public folder and files
+public
+
 # Ignore node modules
 node_modules
