@@ -1,6 +1,9 @@
 # Ignore cache folder and files
 .cache
 
+# Ovde ide poruka...a i ne mora
+.vscode
+
 # Ignore public folder and files
 public
 
