@@ -4,10 +4,11 @@
     margin-bottom: 0;
     list-style: none;
     flex-direction: row;
+    justify-content: center;
 }
 
 .navbar-nav li.nav-item a.nav-link {
-    font-family: 'Roboto';
+    // font-family: 'Roboto';
     font-weight: 700;
     font-style: normal;
     font-size: 14px;
