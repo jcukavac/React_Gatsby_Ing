@@ -1,7 +1,8 @@
 ---
-layout: blog
-title: Second blog post test
-date: 2019-11-06T15:34:19.597Z
+# layout: blog
+path: "/post-test"
+title: "Second blog post test"
+date: "2019-11-06T15:34:19.597Z"
 ---
 ## Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
 
