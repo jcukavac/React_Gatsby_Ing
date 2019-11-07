@@ -21,6 +21,7 @@ exports.createPages = ({actions, graphql}) => {
                 html
                 id
                 frontmatter {
+                path
                 title
                 date
                 author
@@ -36,7 +37,7 @@ exports.createPages = ({actions, graphql}) => {
 
         response.data.allMarkdownRemark.edges.forEach(({node}) => {
             createPage({
-                // path: node.frontmatter.path,
+                path: node.frontmatter.title,
                 component: postTemplate
             })
         })
