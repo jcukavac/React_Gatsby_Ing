@@ -1,5 +1,5 @@
 import React from "react"
-import { Link } from "gatsby"
+import { injectIntl, Link } from "gatsby-plugin-intl"
 
 import Layout from "../components/layout"
 import Image from "../components/image"
@@ -10,28 +10,39 @@ import globalStyles from "../styles/global.module.scss"
 import btnStyles from "../styles/elements/_buttons.module.scss"
 
 
-const IndexPage = () => (
+const IndexPage = ({ intl }) => (
   <Layout>
     <SEO title="Home" />
     <div className={globalStyles.row}>
       <div className={`${globalStyles.colLg6} ${globalStyles.p0}`}>
         <h1 className={styles.mainHeading}>
-          <span className={globalStyles.red}>A Full-Cycle</span>
+          <span className={globalStyles.red}>
+            {intl.formatMessage({ id: "title_part1_index" })}
+          </span>
           <br />
-          Software Development
-      <br />
-          Company
-      <span className={globalStyles.red}>.</span>
+          {intl.formatMessage({ id: "title_part2_index" })}
+          <br />
+          {intl.formatMessage({ id: "title_part3_index" })}
+          <span className={globalStyles.red}>.</span>
         </h1>
-        <h4 className={globalStyles.textUppercase}>And the ultimate technology partner for startups</h4>
-        <Link to="/" className={`${globalStyles.textUppercase} ${btnStyles.buttons} ${btnStyles.btnRed}`}>let's connect</Link>
+        <h4 className={globalStyles.textUppercase}>
+          {intl.formatMessage({ id: "title_text_index" })}
+        </h4>
+        <Link
+          to="/"
+          className={`${globalStyles.textUppercase} ${btnStyles.buttons} ${btnStyles.btnRed}`}
+        >
+          {intl.formatMessage({ id: "title_button_index" })}
+        </Link>
       </div>
 
-      <div className={`${globalStyles.colLg6} ${globalStyles.p0} ${globalStyles.mtMd0} ${globalStyles.mt3} ${globalStyles.alignSelfCenter}`}>
+      <div
+        className={`${globalStyles.colLg6} ${globalStyles.p0} ${globalStyles.mtMd0} ${globalStyles.mt3} ${globalStyles.alignSelfCenter}`}
+      >
         <Image />
       </div>
     </div>
   </Layout>
 )
 
-export default IndexPage
+export default injectIntl(IndexPage)

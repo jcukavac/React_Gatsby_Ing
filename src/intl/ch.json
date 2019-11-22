@@ -1,0 +1,14 @@
+{
+    "title": "ING German",
+    "description": "Ing desc",
+    "author": "jc",
+    "title_part1_index": "Ein Full-Cyclee",
+    "title_part2_index": "Software Development",
+    "title_part3_index": "Unternehmen",
+    "title_text_index": "Und der ultimative Technologie Partner für Startups",
+    "title_button_index": "In Verbindung treten",
+    "notfound": {
+        "header": "nicht finden",
+        "description": "Entschuldigung, aber wir können diese Seite nicht finden. :("
+    }
+}

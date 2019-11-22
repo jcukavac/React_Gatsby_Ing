@@ -1,0 +1,14 @@
+{
+    "title": "ING English",
+    "description": "Ing description",
+    "author": "jc",
+    "title_part1_index": "A Full-Cycle",
+    "title_part2_index": "Software Development",
+    "title_part3_index": "Company",
+    "title_text_index": "And the ultimate technology partner for startups",
+    "title_button_index": "let's connect",
+    "notfound": {
+        "header": "NOT FOUND",
+        "description": "You just hit a route that doesn't exist... the sadness. :("
+    }
+}

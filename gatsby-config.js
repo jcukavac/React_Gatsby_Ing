@@ -35,8 +35,8 @@ module.exports = {
       resolve: `gatsby-source-filesystem`,
       options: {
         path: `${__dirname}/src/pages`,
-        name: 'pages'
-      }
+        name: "pages",
+      },
     },
     `gatsby-transformer-remark`,
     `gatsby-plugin-sass`,
@@ -44,9 +44,22 @@ module.exports = {
       resolve: "gatsby-plugin-react-svg",
       options: {
         rule: {
-          include: /assets/
-        }
-      }
-    }
+          include: /assets/,
+        },
+      },
+    },
+    {
+      resolve: `gatsby-plugin-intl`,
+      options: {
+        // language JSON resource path
+        path: `${__dirname}/src/intl`,
+        // supported language
+        languages: [`en`, `ch`],
+        // language file path
+        defaultLanguage: `en`,
+        // option to redirect to `/en` when connecting `/`
+        redirect: true,
+      },
+    },
   ],
 }

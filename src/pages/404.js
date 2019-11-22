@@ -9,8 +9,12 @@ const NotFoundPage = () => (
   <Layout>
     <SEO title="404: Not found" />
     <div className={styles.content}>
-      <h1 className={styles.header}>NOT FOUND</h1>
-      <p className={styles.errorMessage}>You just hit a route that doesn&#39;t exist... the sadness.</p>
+      <h1 className={styles.header}>
+        {intl.formatMessage({ id: "notfound.header" })}
+      </h1>
+      <p className={styles.errorMessage}>
+        {intl.formatMessage({ id: "notfound.description" })}
+      </p>
     </div>
   </Layout>
 )
