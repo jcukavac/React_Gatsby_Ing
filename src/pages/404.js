@@ -10,10 +10,10 @@ const NotFoundPage = () => (
     <SEO title="404: Not found" />
     <div className={styles.content}>
       <h1 className={styles.header}>
-        {intl.formatMessage({ id: "notfound.header" })}
+        {/* {intl.formatMessage({ id: "notfound.header" })} */}
       </h1>
       <p className={styles.errorMessage}>
-        {intl.formatMessage({ id: "notfound.description" })}
+        {/* {intl.formatMessage({ id: "notfound.description" })} */}
       </p>
     </div>
   </Layout>
